@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dark latex wolf beginning a gentle transfur</title>
+  <desc id="desc">A glossy black latex wolf reaches toward a standing person while violet crystalline energy spreads between them. The scene is non-violent and shows transformation without injury.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b16"/>
+      <stop offset="0.55" stop-color="#15172a"/>
+      <stop offset="1" stop-color="#281b3d"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="48%" r="52%">
+      <stop offset="0" stop-color="#8c6bff" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#553c9e" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#080911" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="latex" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b526d"/>
+      <stop offset="0.19" stop-color="#171a2b"/>
+      <stop offset="0.57" stop-color="#060811"/>
+      <stop offset="0.75" stop-color="#343751"/>
+      <stop offset="1" stop-color="#090a13"/>
+    </linearGradient>
+    <linearGradient id="latexHighlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7dcff" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#d7dcff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#d7dcff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="furEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c91b8"/>
+      <stop offset="1" stop-color="#32354f"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8fbff"/>
+      <stop offset="0.35" stop-color="#9c8cff"/>
+      <stop offset="0.72" stop-color="#e15bd5"/>
+      <stop offset="1" stop-color="#5138b5"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#background)"/>
+  <ellipse cx="645" cy="410" rx="540" ry="430" fill="url(#halo)"/>
+  <path d="M0 760 C260 700 390 800 630 746 C850 695 1020 730 1200 670 V900 H0Z" fill="#070810" opacity="0.76"/>
+  <path d="M0 804 C270 746 466 830 690 783 C888 742 1033 770 1200 726" fill="none" stroke="#514178" stroke-opacity="0.5" stroke-width="3"/>
+
+  <g opacity="0.52" fill="#b7a8ff">
+    <circle cx="130" cy="180" r="3"/><circle cx="240" cy="96" r="2"/><circle cx="950" cy="128" r="3"/>
+    <circle cx="1065" cy="260" r="2"/><circle cx="845" cy="78" r="2"/><circle cx="430" cy="184" r="2"/>
+  </g>
+
+  <!-- Human silhouette with a calm, open stance -->
+  <g transform="translate(755 185)">
+    <ellipse cx="75" cy="600" rx="180" ry="25" fill="#03040a" opacity="0.75"/>
+    <circle cx="70" cy="70" r="43" fill="#b9b7c8"/>
+    <path d="M40 55 C44 18 96 14 108 54 C91 42 64 43 40 55Z" fill="#292b3c"/>
+    <path d="M46 113 C40 174 36 233 29 308 L12 468 L69 486 L101 313 L111 486 L166 476 L138 300 C128 230 122 167 103 114Z" fill="#b1afc1"/>
+    <path d="M32 151 L-35 278 L-4 296 L66 190Z" fill="#aaa8ba"/>
+    <path d="M113 161 L178 255 L149 276 L81 193Z" fill="#aaa8ba"/>
+    <path d="M23 465 L4 603 L53 603 L73 480Z" fill="#aaa8ba"/>
+    <path d="M103 474 L121 603 L171 603 L151 466Z" fill="#aaa8ba"/>
+    <path d="M31 310 C63 327 103 327 137 308 L151 418 C107 442 62 442 17 419Z" fill="#c5c2d0" opacity="0.35"/>
+    <path d="M55 115 C67 135 87 135 101 114" fill="none" stroke="#868497" stroke-width="6" opacity="0.7"/>
+    <path d="M21 176 L-28 277 M132 180 L173 252" fill="none" stroke="#e0def0" stroke-opacity="0.35" stroke-width="5"/>
+  </g>
+
+  <!-- Dark latex wolf -->
+  <g transform="translate(125 130)">
+    <ellipse cx="350" cy="652" rx="310" ry="34" fill="#03040a" opacity="0.8"/>
+    <!-- tail -->
+    <path d="M237 477 C116 477 35 418 30 321 C27 270 64 228 94 207 C75 278 114 326 185 333 C250 340 295 384 301 441Z" fill="url(#latex)" stroke="#7e84a8" stroke-opacity="0.55" stroke-width="5"/>
+    <path d="M57 252 C40 293 59 348 112 372" fill="none" stroke="url(#latexHighlight)" stroke-width="10" opacity="0.55"/>
+    <!-- torso -->
+    <path d="M250 260 C300 230 405 230 468 279 C522 320 549 404 533 510 C523 578 479 632 414 652 L258 648 C203 600 185 532 194 441 C204 355 216 297 250 260Z" fill="url(#latex)" stroke="#777d9e" stroke-width="6"/>
+    <path d="M269 279 C298 319 330 350 377 367 C423 383 473 374 504 349" fill="none" stroke="url(#latexHighlight)" stroke-width="13" opacity="0.68"/>
+    <path d="M231 432 C310 468 426 470 514 419" fill="none" stroke="#aab0d0" stroke-opacity="0.28" stroke-width="7"/>
+    <!-- head and ears -->
+    <path d="M211 277 C172 251 153 210 158 163 L202 28 L280 110 C315 98 367 99 401 114 L482 31 L492 178 C489 246 445 292 374 307 C307 321 250 308 211 277Z" fill="url(#latex)" stroke="#858bad" stroke-width="6"/>
+    <path d="M181 171 L204 64 L264 126" fill="#353a58" stroke="#a3a9c6" stroke-opacity="0.42" stroke-width="4"/>
+    <path d="M427 126 L477 67 L480 170" fill="#353a58" stroke="#a3a9c6" stroke-opacity="0.42" stroke-width="4"/>
+    <path d="M215 246 C267 287 391 294 449 239" fill="none" stroke="#a8afd2" stroke-opacity="0.33" stroke-width="8"/>
+    <!-- eyes -->
+    <path d="M226 189 Q257 163 290 189 Q260 216 228 198Z" fill="#d96bf2" stroke="#f2c8ff" stroke-width="3"/>
+    <path d="M362 188 Q395 162 427 188 Q396 215 364 198Z" fill="#d96bf2" stroke="#f2c8ff" stroke-width="3"/>
+    <ellipse cx="260" cy="190" rx="7" ry="13" fill="#171124"/><ellipse cx="394" cy="189" rx="7" ry="13" fill="#171124"/>
+    <path d="M296 230 Q329 249 363 229 Q351 270 329 274 Q306 269 296 230Z" fill="#111322" stroke="#a7a9c7" stroke-width="4"/>
+    <!-- arms reaching out -->
+    <path d="M244 319 C190 339 129 391 80 443 L103 470 C173 442 248 409 292 369Z" fill="url(#latex)" stroke="#7e84a8" stroke-width="6"/>
+    <path d="M456 322 C520 342 589 368 647 405 L629 443 C545 424 477 408 420 376Z" fill="url(#latex)" stroke="#7e84a8" stroke-width="6"/>
+    <!-- paws -->
+    <path d="M82 440 C58 437 35 451 29 474 C52 489 82 484 106 464Z" fill="#20243a" stroke="#9298bb" stroke-width="5"/>
+    <path d="M635 405 C665 395 692 405 707 425 C688 445 657 443 628 429Z" fill="#20243a" stroke="#9298bb" stroke-width="5"/>
+    <!-- legs -->
+    <path d="M264 558 C234 608 225 667 235 721 L304 721 L333 589Z" fill="url(#latex)" stroke="#777d9e" stroke-width="6"/>
+    <path d="M391 583 L421 721 L491 721 C497 654 475 592 447 552Z" fill="url(#latex)" stroke="#777d9e" stroke-width="6"/>
+    <path d="M226 719 Q270 697 312 720 L304 748 Q252 764 223 741Z" fill="#242941" stroke="#9399bc" stroke-width="5"/>
+    <path d="M417 719 Q460 696 500 721 L507 744 Q464 761 422 743Z" fill="#242941" stroke="#9399bc" stroke-width="5"/>
+  </g>
+
+  <!-- Gentle crystalline transfur connection -->
+  <g filter="url(#glow)">
+    <path d="M790 491 C726 467 681 445 631 423 C585 402 548 392 496 377" fill="none" stroke="#9b73ff" stroke-width="20" stroke-opacity="0.25"/>
+    <path d="M789 490 C720 467 674 445 626 423 C578 401 543 391 494 377" fill="none" stroke="url(#crystal)" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g fill="url(#crystal)" stroke="#f0d9ff" stroke-width="2" filter="url(#softGlow)">
+    <path d="M729 475 l-18 -39 34 14 20 -31 7 44Z"/>
+    <path d="M678 453 l-12 -35 30 18 16 -26 4 38Z"/>
+    <path d="M620 425 l-8 -34 26 19 14 -20 2 36Z"/>
+    <path d="M561 400 l-4 -29 24 17 11 -19 4 34Z"/>
+    <path d="M510 382 l-2 -26 19 16 11 -15 1 29Z"/>
+  </g>
+  <g fill="#f4d8ff">
+    <circle cx="737" cy="481" r="5"/><circle cx="668" cy="444" r="4"/><circle cx="600" cy="412" r="4"/><circle cx="531" cy="386" r="3"/>
+  </g>
+
+  <g transform="translate(68 820)" fill="#d8d1ff">
+    <text font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="4" opacity="0.78">DARK LATEX • GENTLE TRANSFUR</text>
+  </g>
+</svg>
